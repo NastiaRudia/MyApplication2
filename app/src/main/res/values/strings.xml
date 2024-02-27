@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application Espresso</string>
+    <string name="example">Example</string>
+    <string name="login_into_app">Login Into App</string>
+</resources>
