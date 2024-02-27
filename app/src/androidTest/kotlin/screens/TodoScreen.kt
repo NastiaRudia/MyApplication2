@@ -2,7 +2,7 @@ package screens
 
 import android.view.View
 import com.example.myapplication.TodoListActivity
-import com.example.myapplicationtest.R
+import com.example.myapplication.R
 import com.kaspersky.kaspresso.screens.KScreen
 import io.github.kakaocup.kakao.check.KCheckBox
 import io.github.kakaocup.kakao.edit.KEditText

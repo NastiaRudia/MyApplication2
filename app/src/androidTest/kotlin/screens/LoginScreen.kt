@@ -1,11 +1,10 @@
 package screens
 
 import com.example.myapplication.MainActivity
-import com.example.myapplicationtest.R
 import com.kaspersky.kaspresso.screens.KScreen
 import io.github.kakaocup.kakao.edit.KEditText
 import io.github.kakaocup.kakao.text.KButton
-import io.github.kakaocup.kakao.text.KTextView
+import com.example.myapplication.R
 
 object LoginScreen : KScreen<LoginScreen>() {
     override val layoutId: Int get() = R.layout.login

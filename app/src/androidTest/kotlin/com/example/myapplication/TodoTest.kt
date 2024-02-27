@@ -13,7 +13,6 @@ import org.junit.Assert.*
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import com.example.myapplicationtest.R
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
