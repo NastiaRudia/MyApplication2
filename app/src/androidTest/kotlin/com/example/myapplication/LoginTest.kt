@@ -46,7 +46,7 @@ class LoginTest {
             }
             rvTodo {
                 childAt<TodoScreen.TodoItemScreen>(0) {
-                    itemText.containsText("my todo")
+                    itemText.containsText("my twwwwwodo")
                     itemCheckbox.click()
                 }
             }
