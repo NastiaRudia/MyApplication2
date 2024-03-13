@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
 
         loginBtn.setOnClickListener {
             val email = emailField.text.toString()
-            val password = passwordField.text.toString();
 
             val intent = Intent(this, TodoListActivity::class.java)
             intent.putExtra("username", email)

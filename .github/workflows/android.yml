@@ -1,10 +1,12 @@
 name: Android CI
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+  workflow_dispatch:
+    inputs:
+      firebase-ref:
+        description: "Deliver to Firebase"
+        type: boolean
+        required: false
 
 jobs:
   build:
@@ -33,5 +35,9 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 34
+          target: google_apis
+          arch: x86_64
+          profile: Nexus 6
           script: ./gradlew app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.example.myapplication.LoginTest
+
 
